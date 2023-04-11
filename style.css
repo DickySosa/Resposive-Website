@@ -63,5 +63,6 @@ a:hover {
   background-color: var(--plum);
   padding-bottom: 10rem;
   padding-top: 1rem;
+  margin: 0 auto;
   text-align: center;
 }
