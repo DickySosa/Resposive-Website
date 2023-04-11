@@ -59,3 +59,9 @@ a:hover {
   font-size: 4rem;
   font-weight: normal;
 }
+.contact{
+  background-color: var(--plum);
+  padding-bottom: 10rem;
+  padding-top: 1rem;
+  text-align: center;
+}
