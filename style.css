@@ -148,15 +148,16 @@ img:hover {
 .footer h2 {
   margin-bottom: 1rem;
 }
-
-.footer-email {
-  width: 35px;
+.footer div a{
+  color: none;
+  background-color: none;
 }
 .img-container img {
   filter: invert();
   margin: 1rem;
   width: 35px;
 }
+
 
 /*end footer design*/
 

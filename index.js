@@ -3,7 +3,8 @@ import './style.css';
 
 //links
 
-let githubLink = document.querySelector('.github');
+let githubLink1 = document.querySelector('.github');
+let githubLink2 = document.querySelector('.github2');
 
 let linkedinLink = document.querySelector('.linkedin');
 
@@ -19,7 +20,11 @@ let projects = document.querySelector('.projects');
 let me = document.querySelector('.io');
 
 // event listeners
-githubLink.addEventListener('click', function () {
+githubLink1.addEventListener('click', function () {
+  window.location.href = 'https://github.com/DickySosa';
+});
+
+githubLink2.addEventListener('click', function () {
   window.location.href = 'https://github.com/DickySosa';
 });
 
