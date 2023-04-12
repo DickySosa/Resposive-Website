@@ -73,6 +73,9 @@ nav li:first-child {
 img {
   width: 30px;
 }
+img:hover{
+  filter: invert();
+}
 .links {
   cursor: pointer;
 }
