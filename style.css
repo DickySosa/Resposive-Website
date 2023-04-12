@@ -40,6 +40,7 @@ a:hover {
   color: var(--hotmag);
   text-decoration: none;
 }
+
 /*star NavBar design*/
 nav {
   font-family: var(--mono);
@@ -69,10 +70,10 @@ nav li:first-child {
   text-align: center;
 }
 
-img{
-  width: 20px;
+img {
+  width: 30px;
 }
-.links{
+.links {
   cursor: pointer;
 }
 /*end NavBar design*/
