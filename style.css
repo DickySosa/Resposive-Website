@@ -67,6 +67,7 @@ nav a {
 nav li:first-child {
   flex-basis: 100%;
   text-align: center;
+  border: 1px solid red;
 }
 
 /*end NavBar design*/
