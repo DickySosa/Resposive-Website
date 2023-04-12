@@ -141,28 +141,34 @@ img:hover {
 
 /*star footer design*/
 
-.footer h2{
+.footer {
+  padding-top: 1rem;
   text-align: center;
 }
+.footer h2 {
+  margin-bottom: 1rem;
+}
 
-
-
+.footer-email {
+  width: 35px;
+}
+.img-container img {
+  filter: invert();
+  margin: 1rem;
+  width: 35px;
+}
 
 /*end footer design*/
 
-
-
-
 /*responsive navBar*/
-@media(min-width: 850px){
-  nav{
+@media (min-width: 850px) {
+  nav {
     max-width: 1200px;
     margin: 0 auto;
   }
-  nav li:first-child{
+  nav li:first-child {
     flex-basis: auto;
     text-align: left;
-    margin-right:auto;
+    margin-right: auto;
   }
 }
-
