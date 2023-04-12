@@ -71,13 +71,13 @@ nav li:first-child {
   flex-basis: 100%;
   text-align: center;
 }
-.io{
+.io {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
-.chip{
+.chip {
   margin-top: 4px;
   width: 40px;
 }
@@ -90,6 +90,17 @@ img:hover {
 }
 .links {
   cursor: pointer;
+}
+
+.res-btn {
+  background-color: var(--magenta);
+  border: none;
+  padding: 0.4rem;
+  border-radius: 5px;
+  color: var(--white);
+}
+.res-btn:hover {
+  background-color: var(--hotmag);
 }
 
 /*end NavBar design*/
@@ -127,3 +138,31 @@ img:hover {
   text-align: center;
 }
 /*end contact design*/
+
+/*star footer design*/
+
+.footer h2{
+  text-align: center;
+}
+
+
+
+
+/*end footer design*/
+
+
+
+
+/*responsive navBar*/
+@media(min-width: 850px){
+  nav{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  nav li:first-child{
+    flex-basis: auto;
+    text-align: left;
+    margin-right:auto;
+  }
+}
+
