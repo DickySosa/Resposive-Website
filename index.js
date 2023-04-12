@@ -13,7 +13,7 @@ let resumen = document.querySelector('.resumen');
 
 let aboutMe = document.querySelector('.about');
 
-let proyects = document.querySelector('.proyects');
+let projects = document.querySelector('.projects');
 
 let me = document.querySelector('.io');
 
@@ -38,7 +38,7 @@ aboutMe.addEventListener('click', function () {
   window.location.href = ''; /*add link here*/
 });
 
-proyects.addEventListener('click', function () {
+projects.addEventListener('click', function () {
   window.location.href = ''; /*add link here*/
 });
 

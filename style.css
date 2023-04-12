@@ -67,9 +67,14 @@ nav a {
 nav li:first-child {
   flex-basis: 100%;
   text-align: center;
-  border: 1px solid red;
 }
 
+img{
+  width: 20px;
+}
+.links{
+  cursor: pointer;
+}
 /*end NavBar design*/
 
 /*star introduction design*/
