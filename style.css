@@ -1,3 +1,4 @@
+/* variables*/
 :root {
   --black: #171321;
   --dkblue: #0d314b;
@@ -39,6 +40,38 @@ a:hover {
   color: var(--hotmag);
   text-decoration: none;
 }
+/*star NavBar design*/
+nav {
+  font-family: var(--mono);
+  font-size: 80%;
+  padding: 1rem;
+}
+nav h1 a {
+  font-family: var(--sans);
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+nav a {
+  color: var(--White);
+  text-decoration: none;
+  display: block;
+}
+nav li:first-child {
+  flex-basis: 100%;
+  text-align: center;
+}
+
+/*end NavBar design*/
+
+/*star introduction design*/
 .introduction {
   padding-bottom: 10rem;
 }
@@ -59,6 +92,9 @@ a:hover {
   font-size: 4rem;
   font-weight: normal;
 }
+/*end introduction design*/
+
+/*star contact design*/
 .contact {
   background-color: var(--plum);
   padding-bottom: 10rem;
@@ -66,3 +102,4 @@ a:hover {
   margin: 0 auto;
   text-align: center;
 }
+/*end contact design*/
