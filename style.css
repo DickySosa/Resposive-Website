@@ -45,7 +45,7 @@ a:hover {
 /*star NavBar design*/
 nav {
   font-family: var(--mono);
-  font-size: 80%;
+  font-size: 1rem;
   padding: 1rem;
   background-color: var(--gray);
 }
@@ -71,9 +71,18 @@ nav li:first-child {
   flex-basis: 100%;
   text-align: center;
 }
-
+.io{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.chip{
+  margin-top: 4px;
+  width: 40px;
+}
 img {
-  width: 30px;
+  width: 20px;
 }
 img:hover {
   filter: invert();
@@ -82,10 +91,12 @@ img:hover {
 .links {
   cursor: pointer;
 }
+
 /*end NavBar design*/
 
 /*star introduction design*/
 .introduction {
+  padding: 3%;
   padding-bottom: 10rem;
 }
 .introduction p {
