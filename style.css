@@ -134,12 +134,46 @@ img:hover {
   padding: 4rem 1rem 10rem 1rem;
   background-color: var(--dkblue);
 }
-.Wall-of-wonder h3 {
+.Wall-of-wonder h2 {
   font-size: 40px;
+  margin-bottom: 3rem;
+}
+
+.Wall-of-wonder h3 {
+  font-size: 30px;
+  color: var(--aqua);
 }
 .Wall-of-wonder h4 {
-  font-size: 30px;
-  margin-top: 10px;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.black-box {
+  background-color: var(--black);
+  padding: 1rem;
+  border-radius: 10px;
+  color: var(--white);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.Wall-of-wonder ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  gap: 1rem;
+  font-size: 1rem;
+}
+.Wall-of-wonder img {
+  width: 35rem;
+  margin: 2rem 0 4rem 0;
+  border-left: 1px solid var(--aqua);
+  border-top: 1px solid var(--aqua);
+  filter: none;
+  border-radius: 25px;
+  padding: 1rem;
 }
 
 /*End projects section design*/
@@ -176,11 +210,6 @@ img:hover {
 }
 
 /*end footer design*/
-
-/*
-
-#ff17e4  and #86bfbf
-*/
 
 .gradient {
   background: linear-gradient(
