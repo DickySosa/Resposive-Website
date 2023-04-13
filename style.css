@@ -47,7 +47,6 @@ nav {
   font-family: var(--mono);
   font-size: 1rem;
   padding: 1rem;
-  background-color: var(--gray);
 }
 nav h1 a {
   font-family: var(--sans);
@@ -83,9 +82,10 @@ nav li:first-child {
 }
 img {
   width: 20px;
+  filter: invert();
 }
 img:hover {
-  filter: invert();
+  filter: brightness();
   transition: filter 0.5s ease;
 }
 .links {
@@ -107,8 +107,9 @@ img:hover {
 
 /*star introduction design*/
 .introduction {
-  padding: 3%;
-  padding-bottom: 10rem;
+  padding: 4rem 1rem 10rem 1rem;
+  max-width: 1200px;
+  margin: auto;
 }
 .introduction p {
   font-size: 1rem;
@@ -148,7 +149,7 @@ img:hover {
 .footer h2 {
   margin-bottom: 1rem;
 }
-.footer div a{
+.footer div a {
   color: none;
   background-color: none;
 }
@@ -158,8 +159,21 @@ img:hover {
   width: 35px;
 }
 
-
 /*end footer design*/
+
+/*
+
+#ff17e4  and #86bfbf
+*/
+
+.gradient {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 23, 228, 1) 0%,
+    rgba(134, 251, 251, 1) 100%
+  );
+  height: 2px;
+}
 
 /*responsive navBar*/
 @media (min-width: 850px) {

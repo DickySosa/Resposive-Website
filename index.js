@@ -11,6 +11,7 @@ let linkedinLink = document.querySelector('.linkedin');
 let aditionalContacts = document.querySelector('.aditionalContacts');
 
 //add the res-btn to make a link
+//have 2 btns with the same name, take a look at that later 
 let resumen = document.querySelector('.resumen');
 
 let aboutMe = document.querySelector('.about');
