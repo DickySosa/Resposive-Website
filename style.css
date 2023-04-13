@@ -128,6 +128,17 @@ img:hover {
   font-size: 4rem;
   font-weight: normal;
 }
+
+/*Star projects design*/
+.introduction h3 {
+  font-size: 40px;
+}
+.introduction h4 {
+  font-size: 30px;
+  margin-top: 10px;
+}
+/*End projects design*/
+
 /*end introduction design*/
 
 /*star contact design*/
