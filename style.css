@@ -29,7 +29,7 @@ body {
   color: var(--white);
   font-size: var(--font-size);
 }
-h1,
+h1, /*agregar insta video de ro vs kid*/
 h2,
 h3 {
   margin: 0;
@@ -129,15 +129,20 @@ img:hover {
   font-weight: normal;
 }
 
-/*Star projects design*/
-.introduction h3 {
+/*Star projects section design*/
+.Wall-of-wonder {
+  padding: 4rem 1rem 10rem 1rem;
+  background-color: var(--dkblue);
+}
+.Wall-of-wonder h3 {
   font-size: 40px;
 }
-.introduction h4 {
+.Wall-of-wonder h4 {
   font-size: 30px;
   margin-top: 10px;
 }
-/*End projects design*/
+
+/*End projects section design*/
 
 /*end introduction design*/
 
