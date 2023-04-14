@@ -178,15 +178,21 @@ nav li:first-child {
 @media (min-width: 550px) {
   article {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(10, 1fr);
     gap: 1rem;
   }
   .text {
+    grid-column: 5/11;
+    grid-row: 1/2;
     order: 2;
     text-align: right;
   }
   .Wall-of-wonder ul {
     justify-content: flex-end;
+  }
+  .Wall-of-wonder img {
+    grid-column: 1/6;
+    grid-row: 1/2;
   }
 }
 /*End projects section design*/
