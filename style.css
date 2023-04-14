@@ -29,7 +29,7 @@ body {
   color: var(--white);
   font-size: var(--font-size);
 }
-h1, /*agregar insta video de ro vs kid*/
+h1, /*agregar insta video de pro vs kid*/
 h2,
 h3 {
   margin: 0;
@@ -80,11 +80,11 @@ nav li:first-child {
   margin-top: 4px;
   width: 40px;
 }
-img {
+.about-me img {
   width: 20px;
   filter: invert();
 }
-img:hover {
+.about-me img:hover {
   filter: brightness();
   transition: filter 0.5s ease;
 }
@@ -167,15 +167,28 @@ img:hover {
   font-size: 1rem;
 }
 .Wall-of-wonder img {
-  width: 35rem;
-  margin: 2rem 0 4rem 0;
+  margin: 4rem 0;
   border-left: 1px solid var(--aqua);
   border-top: 1px solid var(--aqua);
   filter: none;
   border-radius: 25px;
   padding: 1rem;
+  width: 100%;
 }
-
+@media (min-width: 550px) {
+  article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  .text {
+    order: 2;
+    text-align: right;
+  }
+  .Wall-of-wonder ul {
+    justify-content: flex-end;
+  }
+}
 /*End projects section design*/
 
 /*end introduction design*/
