@@ -12,7 +12,9 @@ let aditionalContacts = document.querySelector('.aditionalContacts');
 
 //add the res-btn to make a link
 //have 2 btns with the same name, take a look at that later 
-let resumen = document.querySelector('.resumen');
+
+//
+let resumen = document.querySelector('.res-btn');
 
 let aboutMe = document.querySelector('.about');
 
@@ -38,7 +40,7 @@ aditionalContacts.addEventListener('click', function () {
 });
 
 resumen.addEventListener('click', function () {
-  window.location.href = ''; /*add link here*/
+  window.location.href = './aboutMe.html'; /*add link here*/
 });
 
 aboutMe.addEventListener('click', function () {
